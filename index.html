@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light " id="list">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="logo/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Product
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Prives</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+
+
+      <!-- Home -->
+      <div id="Home">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" >
+          <div class="carousel-item active hero" dir="rtl">
+            <img src="hero/watch.png" class="d-flex watch" alt="...">
+          </div>
+
+          <div class="text">
+            <h3>Select Your New Prefect Style</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore minus nesciunt fugit totam itaque eveniet mollitia, minima doloribus ipsa architecto?</p>
+            <a href="#" class="but">SHOP NOW</a>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+
+
+
+      <!-- NEW Product -->
+      <h4 style="margin-top: 30px;" class="new">New Products</h4>
+      <div class="product_new" >
+        <div class="row row-cols-1 row-cols-md-3 g-4 HH" >
+            <div class="col">
+              <div class="card h-90" style="border-radius: 0;">
+                <img src="gallery/new_product1.png" class="card-img-top tich" alt="Skyscrapers" style="border-radius: 0;">
+                <div class="card-body" >
+                  <h5 class="card-title">Haitham Hassan (Front End)</h5>
+                  <!-- <p class="card-text">
+                    This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.
+                  </p> -->
+                </div>
+                <div class="card-footer">
+                  <h6 class="text-muted"> $ 50.500 </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-90" style="border-radius: 0;">
+                <img src="gallery/new_product2.png" class="card-img-top" alt="Los Angeles Skyscrapers" style="border-radius: 0;"/>
+                <div class="card-body">
+                  <h5 class="card-title">Haitham Hassan (Front End)</h5>
+                  <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+                </div>
+                <div class="card-footer">
+                  <h6 class="text-muted">$ 50.500</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-90" style="border-radius: 0;">
+                <img src="gallery/new_product3.png" class="card-img-top" alt="Palm Springs Road" style="border-radius: 0;"/>
+                <div class="card-body">
+                  <h5 class="card-title">Haitham Hassan (Front End)</h5>
+                  <!-- <p class="card-text">
+                    This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This card has even longer content than the first to show
+                    that equal height action.
+                  </p> -->
+                </div>
+                <div class="card-footer">
+                  <h6 class="text-muted ">$ 50.500</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <!-- Photo -->
+     <div class="photo">
+      <div class="bk_1"></div>
+      <div class="bk_2"></div>
+      <div class="bk_3">
+       <div class="img_top"></div>
+       <div class="img_bottom"></div>
+      </div>
+    
+     </div>
+
+
+     <!-- Popular items -->
+     
+     <div class="container Popular">
+      <h1>Popular items</h1>
+      <p class="pro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aliquid praesentium 
+        <br> ducimus odit expedita deleniti.</p>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-80 w-90">
+           <img src="gallery/popular1.png" class="card-img-top" alt="Skyscrapers"/>
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p class="text-muted">$ 45.567</p>
+              <div class="fix">
+              <p>Add to Cart</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-80 w-90">
+            <img src="gallery/popular2.png" class="card-img-top" alt="Los Angeles Skyscrapers"/>  
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p class="text-muted">$ 45.567</p>
+              <div class="fix">
+                <p>Add to Cart</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-80 w-90">
+            <img src="gallery/popular3.png" class="card-img-top" alt="Palm Springs Road"/>
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p class="text-muted">$ 45.567</p>
+              <div class="fix">
+                <p>Add to Cart</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-80 w-90">
+            <img src="gallery/popular1.png" class="card-img-top" alt="Skyscrapers"/>
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p class="text-muted">$ 45.567</p>
+              <div class="fix">
+                <p>Add to Cart</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-80 w-90">
+            <img src="gallery/popular2.png" class="card-img-top" alt="Los Angeles Skyscrapers"/>  
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p class="text-muted">$ 45.567</p>
+              <div class="fix">
+                <p>Add to Cart</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-80 w-90">
+            <img src="gallery/popular3.png" class="card-img-top nok" alt="Palm Springs Road"/>
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p class="text-muted">$ 45.567</p>
+              <div class="fix">
+                <p>Add to Cart</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+     </div>
+     
+
+     <!-- Watch of Choice -->
+
+     <div class="card mb-3 watch_of_choice " style="max-width: 1000px; margin: auto;" dir="rtl">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="gallery/choce_watch1.png"
+            alt="Trendy Pants and Shoes"
+            class="img-fluid rounded-start"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">Watch of Choice</h1>
+            <p class="card-text oo">
+              This is a wider card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </p>
+            <p class="card-text">
+              <a href="#" class="but">SHOW WATCHES</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="card mb-3 watch_of_choice " style="max-width: 1000px; margin: auto;margin-top: 70px ;" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="gallery/choce_watch2.png"
+            alt="Trendy Pants and Shoes"
+            class="img-fluid rounded-start"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">Watch of Choice </h1>
+            <p class="card-text oo">
+              This is a wider card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </p>
+            <p class="card-text">
+              <a href="#" class="but">SHOW WATCHES</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <!-- TEXT -->
+    <section class="mb-5 text_2">
+      <div class="row gx-lg-5 " style="height: 220px;" >
+
+        <div class="col mb-5">
+          <div class="d-flex align-items-start">
+            <div class="flex-shrink-0">
+            </div>
+            <div class="flex-grow-1 ms-4">
+                <div class="p-3 badge-primary rounded-4">
+                  <i class="fa-solid fa-cube"></i>
+              </div>
+              <p class="fw-bold mb-1">Tutorials</p>
+              <p class="text-muted mb-1">
+                Dozens of free tutorials to help you discover the full potential of MDB.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col mb-5">
+          <div class="d-flex align-items-start">
+            <div class="flex-shrink-0">    
+            </div>
+            <div class="flex-grow-1 ms-4">
+              <div class="p-3 badge-primary rounded-4">
+                <i class="fa-solid fa-unlock-keyhole"></i>
+              </div>
+              <p class="fw-bold mb-1">Integrations</p>
+              <p class="text-muted mb-1">
+                MDB is integrated with all major technologies and tools.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col mb-5">
+          <div class="d-flex align-items-start">
+            <div class="flex-shrink-0">  
+            </div>
+            <div class="flex-grow-1 ms-4">
+              <div class="p-3 badge-primary rounded-4">
+                <i class="fa-solid fa-arrows-rotate"></i>
+              </div>
+              <p class="fw-bold mb-1">Backend friendly</p>
+              <p class="text-muted mb-1">
+                MDB is designed to be seamlessly integrated and used.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+   
+    
+      </div>
+    </section>
+
+
+    <!-- More -->
+    <div class="container table">
+      <div class="row">
+        <div class="col">
+          <img src="logo/logo2_footer.png" alt="" style="margin-bottom: 20px;">
+          <p style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ducimus?</p>
+        </div>
+        <div class="col footer">
+          <h6>Quick Link</h6>
+          <p>About</p>
+          <p>Offers & Disconts</p>
+          <p>Get Coupon</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="col footer">
+          <h6>New Product</h6>
+          <p>Women Cloth</p>
+          <p>Fashion Accesories</p>
+          <p>Man Accesories</p>
+          <p>Raber Made Toys</p>
+        </div>
+        <div class="col footer">
+          <h6>Support</h6>
+          <p>Frequntly Asked Qustions</p>
+          <p>Team & Condtions</p>
+          <p>Prives Policy</p>
+          <p>Report a Pyment Lssue</p>
+        </div>
+      </div>
+
+
+      <!-- foooooter -->
+      <div class="alert  footer_under" role="alert">
+        <div>
+        Copyright @ 2023 All rights reserved | This temples is made by <span>Eng!Haitham Hassan</span>
+      </div>
+        <div class="ico">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-behance"></i>
+          <i class="fa-solid fa-globe"></i>
+        </div>
+      </div>
+
+      <script src="gallery/choce_watch2.png"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>   
+   <script> new WOW().init(); </script>
+    <script src="script.js"></script>
+</body>
+</html>
